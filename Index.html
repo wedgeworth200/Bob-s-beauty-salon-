@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us - Bob's Salon</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <style>
+    .about-section {
+      background: linear-gradient(to right, #fff0f5, #ffe6f0);
+      padding: 50px 20px;
+      text-align: center;
+    }
+    .about-section h2 { color: #ff4081; }
+    .about-text { max-width: 800px; margin: auto; font-size: 1.1em; color: #333; line-height: 1.6; }
+
+    .why-choose, .staff-cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+      margin-top: 40px;
+    }
+
+    .why-choose div, .staff-card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      width: 250px;
+      text-align: center;
+    }
+
+    .staff-card img {
+      width: 100%;
+      border-radius: 12px;
+    }
+
+    .pdf-download {
+      margin-top: 30px;
+      display: inline-block;
+      background: #ff4081;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 25px;
+      text-decoration: none;
+    }
+
+    .video-container {
+      max-width: 400px;
+      margin: 30px auto;
+      
+    }
+
+    audio {
+      display: block;
+      margin: 20px auto;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>About Bob's Beauty Salon</h1>
+    <p>Where beauty meets expertise 🌸</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="booking.html">Booking</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <section class="about-section">
+    <h2 data-aos="fade-up">Our Story</h2>
+    <div class="about-text" data-aos="fade-up" data-aos-delay="100">
+      <b>Bob's Beauty Salon</b> began as a dream to bring out the confidence in every person.
+      From a small space in <b>Jinja</b>, we’ve grown into a trusted destination for hair, nails, and makeup 💄 lovers.below shows our home premises the house of wonders
+    </div>
+
+    <div class="video-container" data-aos="zoom-in-up">
+      <video controls width="100%" poster="images/thumbnail.jpg">
+        <source src="/videos/VID-20250619-WA0011.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <div class="why-choose">
+      <div data-aos="flip-left"><h4>🌟 Skilled Professionals</h4><p>Trained, certified & passionate team.</p></div>
+      <div data-aos="flip-right"><h4>💖 Premium Products</h4><p>We use the best skin and hair care brands.</p></div>
+      <div data-aos="flip-left"><h4>💬 Friendly Service</h4><p>You’ll always leave with a smile.</p></div>
+      <div data-aos="flip-right"><h4>💅 Wide Range</h4><p>Haircuts, facials, nails, braids, makeup & more.</p></div>
+    </div>
+
+    <div class="staff-section">
+      <h2 data-aos="fade-up">Meet the Team</h2>
+      <div class="staff-cards">
+        <div class="staff-card" data-aos="zoom-in">
+          <img src="/images/pexels-hashtag-melvin-1163687-29317630.jpg" alt="Bob - Lead Stylist" />
+          <h4>Bob</h4><p>Founder & Stylist</p>
+        </div>
+        <div class="staff-card" data-aos="zoom-in" data-aos-delay="100">
+          <img src="/images/erkan-kirdar-_4bm5_7vfoA-unsplash.jpg" alt="Mar - Nail Tech" />
+          <h4>Marc nails</h4><p>Nail Technician</p>
+        </div>
+        <div class="staff-card" data-aos="zoom-in" data-aos-delay="200">
+          <img src="/images/download (4).jpeg" alt="Susan - Makeup Artist" />
+          <h4>Susan</h4><p>Makeup Artist</p>
+        </div>
+      </div>
+    </div>
+
+    <audio controls autoplay loop>
+      <source src=" /salon audio /Alan_Walker___Ina_Wroldsen_-_Strongest__Lyrics_(128k)" type="audio/mpeg">
+      Your browser does not support the audio tag.
+    </audio>
+
+    <a href="/files /service-price-list.pdf" download>📄 Download Our Services & 
+  </section>
+
+  <a href="https://wa.me/256753414909" class="whatsapp-btn">💬 Chat on WhatsApp</a>
+
+  <footer>© 2025 Bob’s Beauty Salon</footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+</html>
